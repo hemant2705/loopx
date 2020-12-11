@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">salonx</string>
+    <string name="vendor_login">VENDOR LOGIN</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="salonx">salonX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fullname">FullName</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="title_activity_sal">Map</string>
+    <string name="please_select_your_account_type">Please select your account type!!</string>
+
+    <string name="click_above_if_you_are_a_user">Click above if you are a user!!</string>
+    <string name="click_above_if_you_are_a_merchant">Click above if you are a merchant!!</string>
+    <string name="your_responses_have_been_saved_click_here_to_submit">Your Responses have been saved!! Click here to submit</string>
+    <string name="submit">SUBMIT</string>
+    <string name="welcome_to_salonx">Welcome to salonX</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered_yet">Not Registered yet!!</string>
+    <string name="signup">SignUp</string>
+    <string name="salon_name">Salon Name</string>
+    <string name="address">Address</string>
+    <string name="website">Website</string>
+    <string name="salon_number">Salon Number</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+    <string name="unisex">Unisex</string>
+    <string name="salon_description">Salon Description</string>
+    <string name="next">NEXT</string>
+    <string name="verification">VERIFICATION</string>
+    <string name="you_will_shortly_receive_an_otp_at_your_registered_mobile_number_enter_it_below_to_complete_the_verification">You will shortly receive an OTP at your registered mobile number.Enter it below to complete the verification</string>
+    <string name="verify">VERIFY</string>
+
+</resources>
