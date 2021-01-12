@@ -4,16 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgl"
+    android:background="@drawable/bgtest2"
     tools:context=".common.loginactivity.merchant.otp"
     android:padding="15dp">
+
+    <ImageView
+        android:alpha="0.5"
+        android:layout_width="382dp"
+        android:layout_height="688dp"
+        android:src="@drawable/cell4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="267dp"
         android:layout_height="215dp"
         android:elevation="2dp"
-        android:src="@drawable/revlogo"
+        android:padding="40dp"
+        android:src="@drawable/loopxlogoblack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.543"
@@ -26,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/verification"
-        android:textColor="#00003f"
+        android:textColor="@color/colorPrimary"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,6 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
 
     <TextView
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -59,6 +71,8 @@
         style="@style/PinWidget.PinView"
         app:layout_constraintVertical_bias="0.639" />
 
+
+
     <Button
         android:id="@+id/submit"
         android:layout_width="198dp"
@@ -68,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         app:layout_constraintTop_toBottomOf="@+id/pinView"
         app:layout_constraintVertical_bias="0.141"
         android:textSize="20sp"/>

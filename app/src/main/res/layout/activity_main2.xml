@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgl"
+    android:background="@drawable/bgtest2"
     tools:context=".common.loginactivity.MainActivity">
 
 
@@ -13,7 +13,8 @@
         android:layout_width="267dp"
         android:layout_height="215dp"
         android:elevation="2dp"
-        android:src="@drawable/revlogo"
+        android:padding="40dp"
+        android:src="@drawable/loopxlogoblack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +27,7 @@
         android:layout_height="32dp"
         android:text="@string/welcome_to_salonx"
         android:textAlignment="center"
-        android:textColor="#00003f"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +41,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="364dp"
         android:layout_height="279dp"
-        android:background="@drawable/rectan"
+        android:background="@drawable/cell4"
         android:orientation="vertical"
         android:padding="30dp"
         app:layout_constraintBottom_toTopOf="@+id/txtsgn"
@@ -75,6 +76,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
+
                 android:layout_height="match_parent"
                 android:inputType="phone"
                 app:layout_constraintEnd_toEndOf="@+id/salonName"
@@ -133,7 +135,7 @@
             android:elevation="25dp"
             android:gravity="center"
             android:text="@string/login"
-            android:textColor="#00003f"
+            android:textColor="#ffffff"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -163,7 +165,7 @@
         android:backgroundTint="@color/colorPrimary"
 
         android:text="@string/signup"
-        android:textColor="#00003F"
+        android:textColor="#ffffff"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -176,7 +178,6 @@
         android:rotation="180"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/rectan"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -189,7 +190,7 @@
         app:lazyloader_firstDotColor="#ffffff"
         app:lazyloader_interpolator="@android:anim/decelerate_interpolator"
         app:lazyloader_secondDelayDur="300"
-        app:lazyloader_secondDotColor="#ffffff"
+        app:lazyloader_secondDotColor="@color/places_text_white_alpha_26"
         app:lazyloader_thirdDotColor="#ffffff"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

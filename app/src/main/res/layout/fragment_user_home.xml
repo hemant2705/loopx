@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".usermain.userFrags.userHome">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="65dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/locationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_down"
+
+                android:maxLines="1"
+                android:text="@string/location"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_location1"
+                app:layout_constraintBottom_toTopOf="parent"
+                tools:layout_editor_absoluteX="10dp" />
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/locationView"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:backgroundTint="@color/colorAccent"
+                android:backgroundTintMode="add"
+                app:defaultQueryHint="Search for services and Packages" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -24,12 +24,10 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="376dp"
-            android:layout_height="273dp"
-
-            android:src="@drawable/bglshort"
-
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="385dp"
+            android:layout_height="213dp"
+            android:background="#ffffff"
+                    app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -59,7 +57,7 @@
             android:text="Create
               Account"
             android:textAllCaps="true"
-            android:textColor="#00003f"
+            android:textColor="@color/colorPrimary"
             android:textSize="40sp"
             android:transitionName="title_text"
             app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -193,9 +191,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="#00e6e6"
-                android:onClick="callnext"
-                android:text="NEXT"
-                android:textColor="#000000"
+                android:text="@string/next"
+                android:textColor="#ffffff"
                 android:transitionName="next_button" />
 
         </LinearLayout>

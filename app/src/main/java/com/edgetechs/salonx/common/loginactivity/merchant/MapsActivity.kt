@@ -105,7 +105,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         currentBtn=findViewById(R.id.currentloc)
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
 
-
+       getLastLocation()
         currentBtn.setOnClickListener{
             getLastLocation()
             currentBtn.visibility= View.GONE

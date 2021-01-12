@@ -16,13 +16,14 @@ import com.airbnb.lottie.LottieAnimationView
 import com.edgetechs.salonx.R
 import com.edgetechs.salonx.common.loginactivity.AskingPage
 import com.edgetechs.salonx.merchantmain.MainActivity
+import com.edgetechs.salonx.usermain.userActivity
 
 
 class SplashActivity : AppCompatActivity() {
     lateinit var imgLogo: ImageView
     lateinit var splash: Animation
     lateinit var splash2: Animation
-    lateinit var bgl: ImageView
+
     lateinit var loading: LottieAnimationView
     lateinit var prog :LazyLoader
     var value : Boolean=false
@@ -44,14 +45,13 @@ class SplashActivity : AppCompatActivity() {
 
 
         imgLogo = findViewById(R.id.imgLogo)
-        bgl = findViewById(R.id.bgl)
         loading = findViewById(R.id.loadingBox)
         prog=findViewById(R.id.loader)
 
 
         imgLogo.animate().translationX(1600f).setDuration(1000).setStartDelay(3000)
         loading.animate().translationX(1600f).setDuration(1000).setStartDelay(3000)
-        bgl.animate().translationX(1600f).setDuration(1000).setStartDelay(3000)
+      //  bgl.animate().translationX(1600f).setDuration(1000).setStartDelay(3000)
 
 
 
@@ -74,6 +74,7 @@ class SplashActivity : AppCompatActivity() {
         prog.addView(lazyLoader)
          val sharedPreferences=getSharedPreferences("theKey", Context.MODE_PRIVATE)
         value=sharedPreferences.getBoolean("isLogged",false)
+        value1=sharedPreferences.getBoolean("status",false)
 
        if ( value){
            Handler(Looper.getMainLooper()).postDelayed({
@@ -82,6 +83,13 @@ class SplashActivity : AppCompatActivity() {
            }, 4000)
 
        }
+       else if ( value1){
+            Handler(Looper.getMainLooper()).postDelayed({
+                val intent = Intent(this@SplashActivity, userActivity::class.java)
+                startActivity(intent)
+            }, 4000)
+
+        }
         else {
            Handler(Looper.getMainLooper()).postDelayed({
                val intent =

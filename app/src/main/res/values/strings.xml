@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">salonx</string>
+    <string name="app_name">LoopX</string>
     <string name="vendor_login">VENDOR LOGIN</string>
     <string name="user_login">USER LOGIN</string>
     <string name="title_activity_maps">Map</string>
@@ -21,7 +21,7 @@
     <string name="click_above_if_you_are_a_merchant">Click above if you are a merchant!!</string>
     <string name="your_responses_have_been_saved_click_here_to_submit">Your Responses have been saved!! Click here to submit</string>
     <string name="submit">SUBMIT</string>
-    <string name="welcome_to_salonx">Welcome to salonX</string>
+    <string name="welcome_to_salonx">Welcome to LoopX</string>
     <string name="phone_no">Phone No.</string>
     <string name="password">Password</string>
     <string name="forgot_password">Forgot Password</string>
@@ -40,5 +40,26 @@
     <string name="verification">VERIFICATION</string>
     <string name="you_will_shortly_receive_an_otp_at_your_registered_mobile_number_enter_it_below_to_complete_the_verification">You will shortly receive an OTP at your registered mobile number.Enter it below to complete the verification</string>
     <string name="verify">VERIFY</string>
+    <string name="merchant_name">Merchant Name</string>
+    <string name="img">IMG</string>
+    <string name="skip">SKIP</string>
+    <string name="increase">INCREASE</string>
+    <string name="customerbase">CUSTOMERBASE</string>
+    <string name="increase_your_salon_customerbase_by_enrolling_yourself_into_our_programme_and_boost_your_salon_growth">Increase your salon customerbase by enrolling yourself into our programme and boost your salon growth</string>
+    <string name="slidecounter">slidecounter</string>
+    <string name="brand">BRAND</string>
+    <string name="endorsement">ENDORSEMENT</string>
+    <string name="we_provide_you_a_platform_to_advertise_your_business_and_boost_your_work_by_slid_marketing">We provide you a platform to advertise your business and boost your work by slid marketing</string>
+    <string name="btn">btn</string>
+    <string name="our">OUR</string>
+    <string name="programme">PROGRAMME</string>
+    <string name="salonxgetstarted">LoopX is a platform started with a moto of VOCAL FOR LOCAL.It is an easy to use platform made for merchants to boost their business and overcome the losses from pandemic</string>
+    <string name="swipe_to_see_the_perks">Swipe to see the perks</string>
+    <string name="swipe"><![CDATA[Swipe>>]]></string>
+    <string name="location">Location</string>
+    <string name="please_set_the_location_to_continue_the_services">Please set the location to continue the services</string>
+    <string name="your_home_services_expert">Your Home Services Expert</string>
+    <string name="mobile_number">Mobile Number</string>
+
 
 </resources>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/test">
 
     <ImageView
+        android:contentDescription="@string/img"
         android:id="@+id/imgReach"
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -40,7 +41,7 @@
         android:id="@+id/skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SKIP"
+        android:text="@string/skip"
         app:layout_constraintHorizontal_bias="0.8"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
@@ -51,7 +52,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BRAND"
+        android:text="@string/brand"
 
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,7 +66,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENDORSEMENT"
+        android:text="@string/endorsement"
         android:textColor="#00003f"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -80,7 +81,7 @@
         android:id="@+id/textView5"
         android:layout_width="262dp"
         android:layout_height="126dp"
-        android:text="We provide you a platform to advertise your business and boost your work by slid marketing"
+        android:text="@string/we_provide_you_a_platform_to_advertise_your_business_and_boost_your_work_by_slid_marketing"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
@@ -90,6 +91,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
+        android:contentDescription="@string/btn"
         android:id="@+id/get"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -101,6 +103,7 @@
         app:layout_constraintVertical_bias="0.692" />
 
     <ImageView
+        android:contentDescription="@string/slidecounter"
         android:layout_width="57dp"
         android:layout_height="14dp"
         android:src="@drawable/series4"

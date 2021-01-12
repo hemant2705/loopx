@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".common.SplashActivity"
+    android:background="@color/colorPrimary"
+
     >
 
 
-    <ImageView
+ <!--   <ImageView
         android:id="@+id/bgl"
         android:elevation="2dp"
         android:layout_width="wrap_content"
@@ -19,14 +21,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
+
 
     <ImageView
-        android:elevation="2dp"
         android:id="@+id/imgLogo"
-        android:layout_width="363dp"
-        android:layout_height="309dp"
-        android:src="@drawable/revlogo"
+        android:layout_width="286dp"
+        android:layout_height="179dp"
+        android:elevation="2dp"
+        android:src="@drawable/loopxlogowhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,13 +38,16 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/loadingBox"
-        android:layout_width="wrap_content"
+        app:lottie_speed="0.4"
+        android:layout_width="200dp"
         android:elevation="2dp"
-
+        app:lottie_loop="true"
+        app:lottie_repeatMode="restart"
+        app:lottie_repeatCount="2"
         app:lottie_autoPlay="true"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        app:lottie_rawRes="@raw/loadingbox"
+        app:lottie_rawRes="@raw/circleloader"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,6 +57,7 @@
 
 
     <com.agrawalsuneet.dotsloader.loaders.LazyLoader
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/loader"
@@ -63,11 +70,11 @@
         app:lazyloader_dotsDist="10dp"
         app:lazyloader_dotsRadius="16dp"
         app:lazyloader_firstDelayDur="150"
-        app:lazyloader_firstDotColor="@color/colorPrimary"
+        app:lazyloader_firstDotColor="#ffffff"
         app:lazyloader_interpolator="@android:anim/decelerate_interpolator"
         app:lazyloader_secondDelayDur="300"
-        app:lazyloader_secondDotColor="@color/colorPrimary"
-        app:lazyloader_thirdDotColor="@color/colorPrimary" />
+        app:lazyloader_secondDotColor="@color/places_text_white_alpha_26"
+        app:lazyloader_thirdDotColor="#ffffff" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,7 @@ import com.google.android.material.textfield.TextInputLayout
 
 
 class merchantSignUp1 : AppCompatActivity() {
-    lateinit var jun: Button
+    lateinit var   nextButton: Button
     lateinit var back: ImageView
     lateinit var fullname: TextInputLayout
     lateinit var username: TextInputLayout
@@ -29,7 +29,7 @@ class merchantSignUp1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_merchant_sign_up)
-        jun = findViewById(R.id.nexti)
+        nextButton = findViewById(R.id.nexti)
         back = findViewById(R.id.iconRet)
         fullname = findViewById(R.id.fullname)
         mobile = findViewById(R.id.mobile)
@@ -39,7 +39,7 @@ class merchantSignUp1 : AppCompatActivity() {
         back.setOnClickListener {
             onBackPressed()
         }
-        jun.setOnClickListener {
+        nextButton.setOnClickListener {
             str1 = fullname.editText!!.text.toString()
             str2 = username.editText!!.text.toString()
             str3 = emailAddress.editText!!.text.toString()
