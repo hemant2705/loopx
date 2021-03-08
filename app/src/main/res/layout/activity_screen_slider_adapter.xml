@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".common.sliderfragments.ScreenSliderAdapter">
 
-    <com.cuberto.liquid_swipe.LiquidPager
+    <com.google.android.material.slider.Slider
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -229,7 +229,7 @@
                 android:background="#00e6e6"
                 android:text="@string/next"
                 android:layout_marginTop="10dp"
-                android:textColor="#000000"
+                android:textColor="#ffffff"
                 />
 
         </LinearLayout>
